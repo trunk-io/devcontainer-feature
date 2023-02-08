@@ -20,6 +20,8 @@ echo -e "The result of the 'color' command will be:\n"
 color
 echo -e "The result of the 'hello' command will be:\n"
 hello
+echo -e "The result of the 'trunk' command will be:\n"
+sudo trunk
 echo -e "\n"
 
 # Feature-specific tests

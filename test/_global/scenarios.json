@@ -1,5 +1,5 @@
 {
-    "color_and_hello": {
+    "color_and_hello_and_trunk": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "color": {
@@ -7,7 +7,8 @@
             },
             "hello": {
                 "greeting": "Greetings"
-            }
+            },
+            "trunk": {}
         }
     }
 }
