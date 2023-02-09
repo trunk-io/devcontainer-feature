@@ -4,6 +4,6 @@ set -e
 
 source dev-container-features-test-lib
 
-check "execute command" bash -c "which trunk"
+check "execute command" bash -c "trunk version"
 
 reportResults

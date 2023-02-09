@@ -1,5 +1,11 @@
 {
-    "trunk": {
+    "help": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "trunk": {}
+        }
+    },
+    "version": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "trunk": {}
