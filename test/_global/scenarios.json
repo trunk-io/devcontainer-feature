@@ -2,12 +2,6 @@
     "color_and_hello_and_trunk": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "color": {
-                "favorite": "purple"
-            },
-            "hello": {
-                "greeting": "Greetings"
-            },
             "trunk": {}
         }
     }
