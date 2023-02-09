@@ -1,0 +1,9 @@
+{
+    "name": "Trunk",
+    "id": "trunk",
+    "version": "1.0.0",
+    "description": "The Trunk CLI tool (learn more at trunk.io)",
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
