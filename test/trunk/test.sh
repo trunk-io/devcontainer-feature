@@ -24,14 +24,12 @@
 # This test can be run with the following command:
 #
 #    devcontainer features test \ 
-#                   --features hello   \
+#                   --features trunk   \
 #                   --remote-user root \
 #                   --skip-scenarios   \
 #                   --base-image mcr.microsoft.com/devcontainers/base:ubuntu \
 #                   /path/to/this/repo
 
-# This test file will be executed against one of the scenarios devcontainer.json test that
-# includes the 'color' feature with "greeting": "hello" option.
 
 set -e
 
