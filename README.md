@@ -48,16 +48,7 @@ An [implementing tool](https://containers.dev/supporting#tools) will composite [
 
 All available options for a Feature should be declared in the `devcontainer-feature.json`. The syntax for the `options` property can be found in the [devcontainer Feature json properties reference](https://containers.dev/implementors/features/#devcontainer-feature-json-properties).
 
-Options are exported as Feature-scoped environment variables. The option name is captialized and sanitized according to [option resolution](https://containers.dev/implementors/features/#option-resolution).
-
-```bash
-#!/bin/bash
-
-echo "Activating feature 'color'"
-echo "The provided favorite color is: ${FAVORITE}"
-
-...
-```
+Options are exported as Feature-scoped environment variables. The option name is capitalized and sanitized according to [option resolution](https://containers.dev/implementors/features/#option-resolution).
 
 ## Distributing Features
 
@@ -76,13 +67,12 @@ Features are meant to be easily sharable units of dev container configuration an
 This repo contains a GitHub Action [workflow](.github/workflows/release.yaml) that will publish each feature to GHCR. By default, each Feature will be prefixed with the `<owner/<repo>` namespace. For example, the two Features in this repository can be referenced in a `devcontainer.json` with:
 
 ```
-ghcr.io/devcontainers/feature-starter/color:1
-ghcr.io/devcontainers/feature-starter/hello:1
+ghcr.io/trunk-io/devcontainer-feature/trunk:1
 ```
 
-The provided GitHub Action will also publish a third "metadata" package with just the namespace, eg: `ghcr.io/devcontainers/feature-starter`. This contains information useful for tools aiding in Feature discovery.
+The provided GitHub Action will also publish a third "metadata" package with just the namespace, eg: `ghcr.io/trunk-io/devcontainer-feature`. This contains information useful for tools aiding in Feature discovery.
 
-'`devcontainers/feature-starter`' is known as the feature collection namespace.
+'`trunk-io/devcontainer-feature`' is known as the feature collection namespace.
 
 ### Marking Feature Public
 
