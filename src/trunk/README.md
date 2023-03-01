@@ -1,7 +1,7 @@
 
 # Trunk (trunk)
 
-The Trunk CLI tool (learn more at trunk.io)
+The Trunk CLI tool and extension (learn more at trunk.io)
 
 ## Example Usage
 
