@@ -2,7 +2,7 @@
   "name": "Trunk",
   "id": "trunk",
   "version": "1.1.0",
-  "description": "The Trunk CLI tool (learn more at trunk.io)",
+  "description": "The Trunk CLI tool and extension (learn more at trunk.io)",
   "customizations": {
     "vscode": {
       "extensions": ["trunk.io"],
