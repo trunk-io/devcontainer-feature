@@ -3,5 +3,26 @@
   "id": "trunk",
   "version": "1.0.1",
   "description": "The Trunk CLI tool (learn more at trunk.io)",
+  "customizations": {
+    "vscode": {
+      "extensions": ["trunk.io"],
+      "settings": {
+        "files.exclude": {
+          "**/.trunk/*actions/": true,
+          "**/.trunk/*logs/": true,
+          "**/.trunk/*notifications/": true,
+          "**/.trunk/*out/": true,
+          "**/.trunk/*plugins/": true
+        },
+        "files.watcherExclude": {
+          "**/.trunk/*actions/": true,
+          "**/.trunk/*logs/": true,
+          "**/.trunk/*notifications/": true,
+          "**/.trunk/*out/": true,
+          "**/.trunk/*plugins/": true
+        }
+      }
+    }
+  },
   "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
 }
