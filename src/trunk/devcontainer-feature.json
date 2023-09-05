@@ -1,7 +1,7 @@
 {
   "name": "Trunk",
   "id": "trunk",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "The Trunk CLI tool and extension (learn more at trunk.io)",
   "customizations": {
     "vscode": {
@@ -12,14 +12,16 @@
           "**/.trunk/*logs/": true,
           "**/.trunk/*notifications/": true,
           "**/.trunk/*out/": true,
-          "**/.trunk/*plugins/": true
+          "**/.trunk/*plugins/": true,
+          "**/.trunk/*tools/": true
         },
         "files.watcherExclude": {
           "**/.trunk/*actions/": true,
           "**/.trunk/*logs/": true,
           "**/.trunk/*notifications/": true,
           "**/.trunk/*out/": true,
-          "**/.trunk/*plugins/": true
+          "**/.trunk/*plugins/": true,
+          "**/.trunk/*tools/": true
         }
       }
     }
