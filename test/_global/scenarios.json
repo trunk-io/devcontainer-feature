@@ -1,8 +1,8 @@
 {
-    "trunk": {
-        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-        "features": {
-            "trunk": {}
-        }
+  "trunk": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "trunk": {}
     }
+  }
 }

@@ -1,6 +1,6 @@
-name: "Release dev container features & Generate Documentation"
+name: Release dev container feature
 on:
-  workflow_dispatch:
+  workflow_dispatch: {}
 
 jobs:
   deploy:
@@ -13,13 +13,13 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: "Publish Features"
+      - name: Publish Features
         uses: devcontainers/action@v1
         with:
           publish-features: "true"
-          base-path-to-features: "./src"
+          base-path-to-features: ./src
           generate-docs: "true"
-          
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
