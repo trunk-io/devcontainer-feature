@@ -10,8 +10,8 @@ contributions!
 
 ## Usage
 
-See the [docs.trunk.io](https://docs.trunk.io/check/cli/github-codespaces) devcontainer page
-[here](https://docs.trunk.io/check/cli/github-codespaces).
+See the [docs.trunk.io](https://docs.trunk.io/) devcontainer page
+[here](https://docs.trunk.io/code-quality/ide-integration/github-codespaces).
 
 ## Contributing
 
